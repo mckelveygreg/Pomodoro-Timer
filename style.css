@@ -1,0 +1,47 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+#middle {
+	display: flex;
+	justify-content: center;
+}
+
+#settings {
+	float: left;
+	
+	display: flex;
+	margin: auto 0 auto 0;
+}
+
+#container {
+	margin: auto;
+	width: 400px;
+	background-color: indianred;
+	border-radius: 100px;
+	padding: 50px;	
+	text-align: center;
+	display: grid;
+	grid-template: auto auto auto / auto;
+}
+
+#clock {
+	justify-content: center;
+	display: inline-flex;
+	text-align: center;
+	transition-duration: 0.2s;
+	font-size: 30px;
+}
+
+#plusMinus {
+	display: grid;
+	grid-template: auto auto / auto;
+	width: 20px;
+}
+
+#settings, button {
+
+}
