@@ -8,6 +8,8 @@ var plus = document.querySelector('#plus');
 var minus = document.querySelector('#minus');
 var reset = document.querySelector('#reset');
 
+var alarm = new Audio('Alarm01.wav');
+
 var timerFlag = true;
 var cancel = false;
 var play = true;
@@ -78,6 +80,9 @@ function initializeClock(endTime) {
 			pause = false;
 			play = true;
 			console.log(timeMin.innerHTML);
+			if (time.total <= 0) {
+				alarm.play();
+			}
 			return;
 		}
 	}
