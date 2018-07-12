@@ -6,7 +6,7 @@
 	<title></title>
 
 	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
 	<div id="container">
@@ -36,12 +36,51 @@
 		</div>
 	</div>
 		<div>
-			<button id="startTime"><i class="fa fa-play"></i></button>
+			<button id="startTime"><i class="fas fa-play"></i></button>
 			<button id="reset">Another Round!</button>
 		</div>
 		</div>
-		<p>View <a href='https://github.com/mckelveygreg/Pomodoro-Timer'>code</a> on Github!</p>
+		<footer>
+            <div id="copyright">
+                <p>Created by Greg McKelvey &copy;
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                </p>
+            </div>
 
+            <div id="socMeds">
+                <a href="https://twitter.com/Whyisbecause" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/whyisbecause" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://github.com/mckelveygreg" target="_blank" id="profile-link">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/mckelveygreg" target="_blank">
+                    <i class="fab fa-free-code-camp"></i>
+                </a>
+                <a href="https://codepen.io/mckelveygreg/" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/greg-mckelvey-6b0125153/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+            </div>
+
+            <div id="viewSource">
+                <p>View
+                    <a id="sourceURL">Source Code</a> on GitHub!</p>
+                <script type="text/javascript">var sourceURL = "https://github.com/mckelveygreg" + window.location.pathname;
+                    var sourceA = document.querySelector('#sourceURL');
+                    sourceA.setAttribute('href', sourceURL);
+                </script>
+            </div>
+
+        </footer>
 	<script src="script.js"></script>
 </body>
 </html>
