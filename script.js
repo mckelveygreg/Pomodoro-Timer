@@ -1,12 +1,14 @@
 // JavaScript source code
-var startTime = document.querySelector('#startTime');
-var cdmin = document.querySelector('#cdmin');
-var cdsec = document.querySelector('#cdsec');
-var clock = document.querySelector('#clock');
-var timeMin = document.querySelector('#timeMin');
-var plus = document.querySelector('#plus');
-var minus = document.querySelector('#minus');
-var reset = document.querySelector('#reset');
+var startTime = document.getElementById('#startTime');
+var cdmin = document.getElementById('#cdmin');
+var cdsec = document.getElementById('#cdsec');
+var clock = document.getElementById('#clock');
+var timeMin = document.getElementById('#timeMin');
+var plus = document.getElementById('#plus');
+var minus = document.getElementById('#minus');
+var reset = document.getElementById('#reset');
+
+document.getElementById
 
 var alarm = new Audio('Alarm01.wav');
 
